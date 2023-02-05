@@ -5,8 +5,8 @@ const Hero = () => {
             <section className="mt-24 mx-auto max-w-screen-xl pb-12 px-4 items-center lg:flex md:px-8">
                 <div className="space-y-4 flex-1 sm:text-center lg:text-left">
                     <h1 className="heading-1">
-                        One page Template for
-                         <span className="text-dark-blue"> Digital agency</span>
+                        Bring Your <span className="text-dark-blue"> Designs </span> to Life with Our <span className="text-dark-blue">State-of-the-Art</span> Printing Technology
+                         
                     </h1>
                     <p className="text-gray-300 max-w-xl leading-relaxed sm:mx-auto lg:ml-0">
                         It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum

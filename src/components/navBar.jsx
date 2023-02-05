@@ -10,7 +10,12 @@ const NavBar = () => {
       <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
                 <a href="javascript:void(0)">
-                    M4 LOGO
+                    <img
+                        src="https://www.floatui.cuom/logo.svg" 
+                        width={120} 
+                        height={50}
+                        alt="M4 logo"
+                    />
                 </a>
               <div className="md:hidden">
                   <button className="text-gray-700 outline-none p-2 rounded-md focus:border-gray-400 focus:border"
