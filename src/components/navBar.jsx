@@ -9,7 +9,7 @@ const NavBar = () => {
       <nav className="bg-white w-full border-b md:border-0 md:static">
       <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
-                <a href="javascript:void(0)">
+                <a href="#">
                     <img
                         src="https://www.floatui.cuom/logo.svg" 
                         width={120} 
@@ -51,7 +51,7 @@ const NavBar = () => {
               </ul>
           </div>
           <div className="hidden md:inline-block">
-            <a href="javascript:void(0)" className="py-3 px-4 text-white bg-dark-blue rounded-md shadow hover:translate-y-2">
+            <a href="#" className="py-3 px-4 text-white bg-dark-blue rounded-md shadow hover:translate-y-2">
                 Get Started
             </a>
           </div>

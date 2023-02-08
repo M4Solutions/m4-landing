@@ -6,7 +6,7 @@ const Testimonials = () => {
 
 
     return (
-        <section className="py-14 flex gap-3 flex-col lg:flex-row">
+        <section className="flex gap-3 flex-col lg:flex-row">
             {
                 testimonials.map((data, idx) => {
                     return (

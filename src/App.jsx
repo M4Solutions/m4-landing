@@ -1,9 +1,10 @@
 import reactLogo from './assets/react.svg';
 import './App.css';
 import Home from './pages/home';
-import { createContext, useState } from 'react';
+import { useState } from 'react';
+import { numberContext } from './contexts/NumberContxt';
 
-export const numberContext = createContext();
+
 
 function App() {
   const [number, setNumber] = useState(0);
@@ -12,7 +13,7 @@ function App() {
       <numberContext.Provider value={number}>
         <div className="App">
           <Home />
-          <button onClick={() => setNumber(number + 1)}>change</button>
+          <button className='border border-green' onClick={() => setNumber(number + 1)}>change</button>
         </div>
       </numberContext.Provider>
   )

@@ -1,6 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;600;700&family=Nanum+Brush+Script&family=Poppins&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
 
 img {
     max-width: 100%;
@@ -8,20 +15,46 @@ img {
 
 
 .heading-1 {
-    @apply text-4xl font-bold leading-tight md:text-5xl lg:text-6xl;
+    @apply text-4xl font-bold leading-tight md:text-5xl lg:text-6xl sm:leading-none sm:mb-4;
 }
 .heading-2 {
-    @apply text-3xl font-bold leading-tight md:text-4xl lg:text-5xl;
+    @apply text-3xl font-bold leading-tight md:text-4xl lg:text-5xl sm:leading-none sm:mb-4;
 }
 .heading-3 {
-    @apply text-2xl font-bold leading-tight md:text-3xl lg:text-4xl;
+    @apply text-2xl font-bold leading-tight md:text-3xl lg:text-4xl sm:leading-none sm:mb-4;
 }
 .heading-4 {
-    @apply text-xl font-bold leading-tight md:text-2xl lg:text-3xl;
+    @apply text-xl font-bold leading-tight md:text-2xl lg:text-3xl sm:leading-none sm:mb-4;
 }
 .heading-5 {
-    @apply text-lg font-bold leading-tight md:text-xl lg:text-2xl;
+    @apply text-lg font-bold leading-tight md:text-xl lg:text-2xl sm:leading-none sm:mb-4;
 }
 .heading-6 {
-    @apply text-base font-bold leading-tight md:text-lg lg:text-xl;
+    @apply text-base font-bold leading-tight md:text-lg lg:text-xl sm:leading-none sm:mb-4;
+}
+
+.section-spacing {
+    @apply p-4 sm:p-8 md:p-12 lg:p-16 xl:p-20;
+}
+
+.heading-curve {
+    font-family: 'Nanum Brush Script', cursive;
+}
+
+.hero-background {
+    background: url(/public/images/hero-bg.avif) no-repeat center #f6f9fc;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+.mission-background {
+    background: url(/public/images/mission.jpg) no-repeat center #005CB9;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+.vision-background {
+    background: url(/public/images/vision.jpg) no-repeat right #21A5FD;
+    background-size: cover;
+    background-blend-mode: multiply;
 }
