@@ -42,19 +42,19 @@ img {
 }
 
 .hero-background {
-    background: url(/public/images/hero-bg.avif) no-repeat center #f6f9fc;
+    background: url(/images/hero-bg.avif) no-repeat center #f6f9fc;
     background-size: cover;
     background-blend-mode: multiply;
 }
 
 .mission-background {
-    background: url(/public/images/mission.jpg) no-repeat center #005CB9;
+    background: url(/images/mission.jpg) no-repeat center #005CB9;
     background-size: cover;
     background-blend-mode: multiply;
 }
 
 .vision-background {
-    background: url(/public/images/vision.jpg) no-repeat right #21A5FD;
+    background: url(/images/vision.jpg) no-repeat right #21A5FD;
     background-size: cover;
     background-blend-mode: multiply;
 }
