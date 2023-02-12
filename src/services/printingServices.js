@@ -23,33 +23,104 @@ export let navigation = [
 
 export let services = [
     {
+        name: "Designing",
+        features: [
+            "Creative Designs for Branding",
+            "Packaging",
+            "Marketing",
+            "Promotional Gifting & Stationery",
+        ],
+    },
+    {
+        name: "Branding and Packaging",
+        features: [
+            "Making your Identity (Logo Design) with Catch line",
+            "Boxes",
+            "Stickers",
+            "Pouches",
+            "Wrappers",
+        ],
+    },
+    {
+        name: "Marketing",
+        features: [
+            "CI/CD Cover Paper",
+            "Brochure",
+            "Flowers",
+            "Dairy",
+            "Poster",
+            // "Cap",
+            // "T-shirt and Uniform",
+            // "Badges"
+        ],
+    },
+    {
+        name: "Stationery",
+        features: [
+            "Visiting Card",
+            "Letter Head",
+            "Bill Book",
+            "Order Book",
+            // "Challan BookStock Regi",
+            // "Inward Outward Regi",
+            // "Exp. Reject Material Regi",
+            // "Scrap Material Regi",
+            // "fee's one",
+            // "Tahit",
+            // "Bastes",
+            // "Cap a Shirt (Uniorm)",
+        ],
+    },
+    {
+        name: "Gifting",
+        features: [
+            "Promotional Corporate gift",
+            "Note Pad",
+            "Pen",
+            "Mug",
+            "Sack"
+        ],
+    }
+];
+
+
+
+export let machines = [
+    {
         id: 'lki543vd',
-        title: 'Flex Printing',
-        body: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur eveniet modi, praesentium quos provident reprehenderit!',
-        image: 'flex-printing.jpeg',
-        background: 'light-blue'
+        name: 'Graphic Designing Studio',
+        image: 'graphics-design-studio.jpg',
     }, 
     {
         id: 'aswd947',
-        title: 'Custom Embroidery',
-        body: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur eveniet modi, praesentium quos provident reprehenderit!',
-        image: 'custom-embroidery.png',
-        background: 'dark-blue'
+        name: 'Computer to Plate Machine (CTP)',
+        image: 'computer-to-plate.jpg',
     }, 
     {
-        id: 'thsd947',
-        title: 'Computer to Plate',
-        body: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur eveniet modi, praesentium quos provident reprehenderit!',
-        image: 'ctp.jpeg',
-        background: 'light-blue'
+        id: 'l4dy947',
+        name: 'Heidelberg Speed Master 72 ZP 2 Colour',
+        image: 'heidelberg-speed-master.jpg',
     }, 
     {
-        id: '09sgr47',
-        title: 'Graphics',
-        body: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur eveniet modi, praesentium quos provident reprehenderit!',
-        image: 'graphics.jpg',
-        background: 'dark-blue'
+        id: 'bc3sfjk',
+        name: 'Heidelberg MOFP 5 Colour',
+        image: 'heidelberg-MOFP.jpg',
     }, 
+    {
+        id: 'mbxdg4p',
+        name: 'Xerox Versant 280',
+        image: 'xerox-versant-280.jpg',
+    }, 
+    {
+        id: 'camrf3s',
+        name: 'Monogram Machine',
+        image: 'monogram-machine.jpg',
+    }, 
+    {
+        id: 'trxfdn',
+        name: 'Heidelberg GTO 52 4 Colour',
+        image: 'heidelberg-GTO.jpg',
+    }
 ]
 
 export let testimonials = [

@@ -1,119 +1,10 @@
 import React from "react";
-import Service from "../components/services";
-import {services} from "../services/printingServices";
+import { services } from "../services/printingServices";
 
 const Services = () => {
-
-    return (         
-        <div>
-            {
-                // console.log('service', service.title)
-                services.map((service, idx) => {
-                    return (<div className={`w-full py-5 bg-${idx % 2 ? 'dark-blue' : 'light-blue'}`} key={service.id}>
-                        <div className="mx-auto flex justify-center items-center gap-6 flex-col md:flex-row md:max-w-6xl">
-                            <div className="flex-1">
-                                <div className="text-center lg:text-left">
-                                    <h3 className="heading-3">{service.title}</h3>
-                                    <p>{service.body}</p>
-                                </div>
-                            </div>
-                            {
-                            idx % 2 ? 
-                                <div className="flex-1 md:order-first">
-                                    <img src={`/images/${service.image}`} className="w-full max-w-md" alt={service.title} />
-                                </div>
-                                : 
-                                <div className="flex-1">
-                                    <img src={`/images/${service.image}`} className="w-full max-w-md" alt={service.title} />
-                                </div>
-                            }
-                        
-                        </div>
-                    </div>)
-                })
-            }
-
-            <Graphics />
-        </div>
-     );
-}
-
-
-
-export default Services;
-const Graphics = () => {
-
-    const plans = [
-        {
-            name: "Designing",
-            price: 12,
-            features: [
-                "Creative Designs for Branding",
-                "Packaging",
-                "Marketing",
-                "Promotional Gifting & Stationery",
-            ],
-        },
-        {
-            name: "Branding and Packaging",
-            price: 35,
-            features: [
-                "Making your Identity (Logo Design) with Catch line",
-                "Boxes",
-                "Stickers",
-                "Pouches",
-                "Wrappers",
-            ],
-        },
-        {
-            name: "Marketing",
-            price: 60,
-            features: [
-                "CI/CD Cover Paper",
-                "Brochure",
-                "Flowers",
-                "Dairy",
-                "Poster",
-                // "Cap",
-                // "T-shirt and Uniform",
-                // "Badges"
-            ],
-        },
-        {
-            name: "Marketing",
-            price: 60,
-            features: [
-                "Visiting Card",
-                "Letter Head",
-                "Bill Book",
-                "Order Book",
-                // "Challan BookStock Regi",
-                // "Inward Outward Regi",
-                // "Exp. Reject Material Regi",
-                // "Scrap Material Regi",
-                // "fee's one",
-                // "Tahit",
-                // "Bastes",
-                // "Cap a Shirt (Uniorm)",
-                // "Gifting",
-            ],
-        },
-        {
-            name: "Gifting",
-            price: 10,
-            features: [
-                "Promotional Corporate gift",
-                "Note Pad",
-                "Pen",
-                "Mug",
-                "Sack"
-            ],
-        },
-    ];
-
     return (
-        <section className='py-14 bg-black'>
-            <div className="max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8">
+        <section className='py-14'>
+            <div className="mx-auto px-4 md:px-8">
                 <div className='relative max-w-xl mx-auto sm:text-center'>
                     <h3 className='text-gray-800 text-3xl font-semibold sm:text-4xl'>
                         Pricing for all sizes
@@ -124,47 +15,40 @@ const Graphics = () => {
                         </p>
                     </div>
                 </div>
-                <div className='mt-16 space-y-6 justify-center gap-6 sm:grid sm:grid-cols-2 sm:space-y-0 lg:grid-cols-3'>
-                    {
-                        plans.map((item, idx) => (
-                            <div key={idx} className='relative flex-1 flex items-stretch flex-col p-8 rounded-xl border-2'>
-                                <div>
-                                    <span className='text-indigo-600 font-medium'>
-                                        {item.name}
-                                    </span>
-                                    <div className='mt-4 text-gray-800 text-3xl font-semibold'>
-                                        ${item.price} <span className="text-xl text-gray-600 font-normal">/mo</span>
-                                    </div>
-                                </div>
-                                <ul className='py-8 space-y-3'>
-                                    {
-                                        item.features.map((featureItem, idx) => (
-                                            <li key={idx} className='flex items-center gap-5'>
-                                                <svg
-                                                    xmlns='http://www.w3.org/2000/svg'
-                                                    className='h-5 w-5 text-indigo-600'
-                                                    viewBox='0 0 20 20'
-                                                    fill='currentColor'>
-                                                    <path
-                                                        fillRule='evenodd'
-                                                        d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z'
-                                                        clipRule='evenodd'></path>
+                <div className='flex items-stretch justify-center flex-wrap -m-4'>
+                {
+                    services.map((service, idx) => (
+                    <div key={idx} class="p-4 xl:w-1/4 md:w-1/2 w-full">
+                        <div class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
+                            <h1 className="text-2xl text-gray-900 pb-4 mb-4 border-b border-gray-200 leading-none">{service.name}</h1>
+                            <ul className='py-8 space-y-3'>
+                                {
+                                    service.features.map((featureItem, idx) => (
+                                        <p key={idx} className="flex items-center text-gray-600 mb-2">
+                                            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                                                <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" stroke-width="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+                                                <path d="M20 6L9 17l-5-5"></path>
                                                 </svg>
-                                                {featureItem}
-                                            </li>
-                                        ))
-                                    }
-                                </ul>
-                                <div className="flex-1 flex items-end">
-                                    <button className='px-3 py-3 rounded-lg w-full font-semibold text-sm duration-150 text-white bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700'>
-                                        Get Started
-                                    </button>
-                                </div>
-                            </div>
-                        ))
-                    }
+                                            </span>{featureItem}
+                                        </p>
+                                    ))
+                                }
+                            </ul>
+
+                            <button className="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">Place a Call
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-auto" viewBox="0 0 24 24">
+                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    ))
+                }
                 </div>
             </div>
         </section>
     );
 };
+
+
+export default Services;

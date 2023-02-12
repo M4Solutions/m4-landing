@@ -6,31 +6,24 @@ const Testimonials = () => {
 
 
     return (
-        <section className="flex gap-3 flex-col lg:flex-row">
+        <section className="container">
+            <div className="flex flex-wrap -m-4">
             {
                 testimonials.map((data, idx) => {
                     return (
-                        <div key={data.id} className="max-w-screen-lg mx-auto p-4 border border-purple shadow-lg rounded-md duration-300 hover:shadow-sm">
-                            <div className="max-w-3xl">
-                            <figure>
-                                <blockquote>
-                                    <p className="text-gray-800 text-lg text-center font-semibold">
-                                        “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae, gravida justo. Nunc fermentum magna lorem, euismod volutpat arcu volutpat et.“
-                                    </p>
-                                </blockquote>
-                                <div className="flex justify-center items-center gap-x-4 mt-6">
-                                    <img src={data.image}  className="w-16 h-16 rounded-full"/>
-                                    <div>
-                                        <span className="block text-gray-800 font-semibold">{data.name}</span>
-                                        <span className="block text-gray-600 text-sm mt-0.5">Founder of meta</span>
-                                    </div>
-                                </div>
-                            </figure>
+                        <div key={data.id} className="lg:w-1/3 lg:mb-0 mb-6 p-4">
+                            <div className="h-full text-center">
+                                <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="https://dummyimage.com/302x302" />
+                                <p className="leading-relaxed">" Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware. "</p>
+                                <span className="inline-block h-1 w-10 rounded bg-white mt-6 mb-4"></span>
+                                <h2 className="text-ash font-medium title-font tracking-wider text-sm uppercase">{data.name}</h2>
+                                <p className="text-ash">Senior Product Designer</p>
                             </div>
                         </div>
                     )
                 })
             }
+            </div>
         </section>
         );
 }

@@ -2,7 +2,7 @@ const Footer = () => {
     return ( 
 
         <footer className="container mx-auto px-6 text-white">
-            <div className="grid md:grid-cols-3 space-x-auto">
+            <div className="grid lg:grid-cols-3 space-x-auto">
                 <div className="mb-6 md:mb-0">
                     <a href="/" className="flex justify-center md:justify-start items-center mb-6">
                         <img src="/images/vite.svg" className="h-8 mr-3" alt="FlowBite Logo" />
