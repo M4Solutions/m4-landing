@@ -6,14 +6,9 @@ const Services = () => {
         <section className='py-14'>
             <div className="mx-auto px-4 md:px-8">
                 <div className='relative max-w-xl mx-auto sm:text-center'>
-                    <h3 className='text-gray-800 text-3xl font-semibold sm:text-4xl'>
-                        Pricing for all sizes
+                    <h3 className='text-gray-800 mb-3 text-3xl font-semibold sm:text-4xl'>
+                        Some of our services
                     </h3>
-                    <div className='mt-3 max-w-xl'>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam efficitur consequat nunc.
-                        </p>
-                    </div>
                 </div>
                 <div className='flex items-stretch justify-center flex-wrap -m-4'>
                 {
