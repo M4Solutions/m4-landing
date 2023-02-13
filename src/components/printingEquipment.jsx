@@ -19,10 +19,10 @@ const PrintingEquipment = () => {
             {
                 machines.map(machine => {
                     return (
-                        <div key={machine.id} data-aos="fade-up" class="lg:w-1/3 sm:w-1/2 p-4">
+                        <div key={machine.id} data-aos="flip-up" className="lg:w-1/3 sm:w-1/2 p-4">
                             <div className="flex relative">
                             <img className="absolute inset-0 w-full h-full object-cover object-center" src={`/images/${machine.image}`} alt={machine.name}/>
-                            <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-opacity-0 bg-opacity-55 opacity-0 hover:opacity-100">
+                            <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-opacity-0 bg-opacity-55 opacity-0 hover:opacity-100"  data-aos="fade-in">
                                 <h1 className="title-font text-lg opacity-0 text-gray-900 mb-3">Shooting Stars</h1>
                                 <p className="leading-relaxed opacity-0">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
                                 <h2 className="tracking-widest text-sm title-font font-bold bg-white text-black text-center mb-1 uppercase">{machine.name}</h2>

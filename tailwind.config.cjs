@@ -13,7 +13,6 @@ module.exports = {
         'ash':'#f6f9fc',
         'white': '#fff',
         'black': '#000',
-        'purple': '#581c87',
         'light-blue': '#21A5FD',
         'dark-blue': '#005CB9',
         'yellow': '#FAAF40;',

@@ -7,13 +7,11 @@ import MissionVision from "../components/missionVision";
 import Testimonials from "../components/testimonial";
 import SectionHead from "../components/common/sectionHead";
 import Services from "../components/services";
-import { useContext } from "react";
-import { numberContext } from "../contexts/NumberContxt";
 import PrintingEquipment from "../components/PrintingEquipment";
+import CTA from "../components/cta";
 
 const Home = () => {
-    const currentNumber = useContext(numberContext);
-    console.log("context ==>", currentNumber)
+
     return (
         <div className="bg-white">
             <header className="bg-ash">
@@ -38,6 +36,9 @@ const Home = () => {
                     <SectionHead header={'REVIEWS'} desc={'What do people say?'} />
                 </div>
                 <Testimonials />
+            </section>
+            <section>
+                <CTA />
             </section>
         
             <section className="section-spacing bg-black text-white">
