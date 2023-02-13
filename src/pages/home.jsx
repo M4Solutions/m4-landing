@@ -1,4 +1,3 @@
-import Carousel from "../components/common/carousel"
 import Footer from "../components/footer";
 import Hero from "../components/hero";
 import NavBar from "../components/navBar";
@@ -7,7 +6,7 @@ import MissionVision from "../components/missionVision";
 import Testimonials from "../components/testimonial";
 import SectionHead from "../components/common/sectionHead";
 import Services from "../components/services";
-import PrintingEquipment from "../components/PrintingEquipment";
+import PrintingEquipment from "../components/printingEquipment";
 import CTA from "../components/cta";
 
 const Home = () => {
