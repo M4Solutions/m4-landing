@@ -3,17 +3,14 @@ import { services } from "../services/printingServices";
 
 const Services = () => {
     return (
-        <section className='py-14'>
-            <div className="mx-auto px-4 md:px-8">
+            <div className="mx-auto px-4 md:px-8 py-8">
                 <div className='relative max-w-xl mx-auto sm:text-center'>
-                    <h3 className='text-gray-800 mb-3 text-3xl font-semibold sm:text-4xl'>
-                        Some of our services
-                    </h3>
+                <h3 className="text-3xl font-bold mb-4 text-center">Some of our services</h3>
                 </div>
                 <div className='flex items-stretch justify-center flex-wrap -m-4'>
                 {
                     services.map((service, idx) => (
-                    <div key={idx} data-aos="fade-up-right" className="p-4 xl:w-1/4 md:w-1/2 w-full">
+                    <div key={idx} className="p-4 xl:w-1/4 md:w-1/2 w-full">
                         <div className="h-full p-6 rounded-lg border-2 border-dark-blue flex flex-col relative overflow-hidden">
                             <h1 className="text-2xl text-gray-900 pb-4 mb-4 border-b border-gray-200 leading-none">{service.name}</h1>
                             <ul className='py-8 space-y-3'>
@@ -41,7 +38,6 @@ const Services = () => {
                 }
                 </div>
             </div>
-        </section>
     );
 };
 

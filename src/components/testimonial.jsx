@@ -6,7 +6,8 @@ const Testimonials = () => {
 
 
     return (
-        <section className="container">
+        <section className="container mx-auto px-4">
+            <h2 className="text-3xl font-bold mb-4 text-center">Reviews</h2>
             <div className="flex flex-wrap -m-4">
             {
                 testimonials.map((data, idx) => {

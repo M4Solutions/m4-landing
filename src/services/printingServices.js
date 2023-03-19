@@ -2,22 +2,22 @@ export let navigation = [
     {
         id: 0,
         title:'Home',
-        path: ''
+        path: '#home'
     },
     {
         id: 1,
         title:'About',
-        path: ''
+        path: '#about'
     },
     {
         id: 2,
         title:'Services',
-        path: ''
+        path: '#services'
     },
     {
         id: 3,
         title:'Contact',
-        path: ''
+        path: '#contact'
     },
 ]
 
@@ -90,7 +90,17 @@ export let machines = [
         id: 'lki543vd',
         name: 'Graphic Designing Studio',
         image: 'graphics-design-studio.jpg',
+    },
+    {
+        id: 'camrf3s',
+        name: 'Monogram Machine',
+        image: 'monogram-machine.jpg',
     }, 
+    {
+        id: 'trxfdn',
+        name: 'Heidelberg GTO 52 4 Colour',
+        image: 'heidelberg-GTO.jpg',
+    },
     {
         id: 'aswd947',
         name: 'Computer to Plate Machine (CTP)',
@@ -110,16 +120,6 @@ export let machines = [
         id: 'mbxdg4p',
         name: 'Xerox Versant 280',
         image: 'xerox-versant-280.jpg',
-    }, 
-    {
-        id: 'camrf3s',
-        name: 'Monogram Machine',
-        image: 'monogram-machine.jpg',
-    }, 
-    {
-        id: 'trxfdn',
-        name: 'Heidelberg GTO 52 4 Colour',
-        image: 'heidelberg-GTO.jpg',
     }
 ]
 

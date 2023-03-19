@@ -35,29 +35,23 @@ const Features = () => {
     ]
 
     return (
-        <div className="py-14">
-                <div className='flex items-stretch justify-center flex-wrap -m-4'>
+            <div className="container mx-auto">
+                <h2 className="text-3xl font-bold text-center mb-10">Features</h2>
+                <div className="grid grid-cols-1 ijustify-items-stretch sm:grid-cols-2 lg:grid-cols-3 gap-8">
                     {
-                        features.map((item, idx) => (
-                            <div key={item.title} className="p-4 md:w-1/3">
-                                <div className="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
-                                <div className="flex items-center mb-3">
-                                    <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-light-blue text-white flex-shrink-0">
-                                    <FontAwesomeIcon icon={item.icon} />
+                        features.map((item, idx) => {
+                            return (
+                                <div key={item.title} class="bg-white rounded-lg shadow-lg p-6 flex-1">
+                                    <div className="flex items-center gap-2 mb-4">
+                                    <span className=''>
+                                        <FontAwesomeIcon icon={item.icon} />
+                                    </span>
+                                    <h3 className="text-lg font-semibold">{item.title}</h3>
                                     </div>
-                                    <h2 className="text-gray-900 text-lg title-font font-medium">{item.title}</h2>
+                                    <p className="text-gray-600">{item.desc}</p>
                                 </div>
-                                <div className="flex-grow">
-                                    <p className="leading-relaxed text-base">{item.desc}</p>
-                                    <a href='/' className="mt-3 text-light-blue inline-flex items-center">Learn More
-                                    <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                                        <path d="M5 12h14M12 5l7 7-7 7"></path>
-                                    </svg>
-                                    </a>
-                                </div>
-                                </div>
-                            </div>
-                        ))
+                            )
+                        })
                     }
                 </div>
             </div>

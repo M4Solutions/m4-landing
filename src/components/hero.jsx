@@ -2,27 +2,23 @@ import React from "react";
 
 const Hero = () => {
     return (
-            <section className="mt-24 mx-auto max-w-screen-xl pb-12 px-4 items-center lg:flex md:px-8">
-                <div className="space-y-4 flex-1 sm:text-center lg:text-left">
-                    <h1 className="heading-1">
-                        M4 <span className="text-dark-blue"> SOLUTIONS</span>
-                    </h1>
-                    <p className="max-w-xl leading-relaxed sm:mx-auto lg:ml-0">
-                    M4 Solution Limited is a budding cutting-edge full-service printing company founded in 2020. It focuses on the printing needs of educational institutions, the corporate sector, and the general public. It is our intention to provide the best possible printing solutions where attention is paidto quality and detail, resultingin satisfied customers with whom we have long lasting business relationships. The foundation of our business is integrity and honesty. We are proud of the client relationships that have developed resulting in interdependence and mutual growth.
-                    </p>
-                    <div className="pt-5 items-center justify-center space-y-3 sm:space-x-6 sm:space-y-0 sm:flex lg:justify-start">
-                        <a href="#" className="px-7 py-3 w-full bg-dark-blue text-white text-center rounded-md shadow-md block sm:w-auto">
-                            Get started
-                        </a>
-                        <a href="#" className="px-7 py-3 w-full outline outline-1 outline-dark-blue text-center rounded-md block sm:w-auto">
-                            Try it out
-                        </a>
-                    </div>
+        <div className="container mx-auto flex flex-col md:flex-row gap-2 items-center ">
+            <div className="md:w-1/2 flex-1">
+                <h1 className="text-4xl font-bold leading-tight mb-4">Get High-Quality <span className="bg-gradient-to-r from-red-200 to-red-600 bg-clip-text text-transparent">Printing</span> Services at M4 Solutions</h1>
+                <p className="text-gray-200 mb-8 leading-loose"> </p>
+                <div className="flex">
+                    <a href="#" className="inline-block px-8 py-4 rounded text-blue-500 bg-white transform hover:scale-105 mr-4">
+                        Get Started
+                    </a>
+                    <a href="#" className="inline-block px-8 py-4 rounded text-blue-500 bg-white transorm hover:scale-105">
+                        Contact Us
+                    </a>
                 </div>
-                <div className="hero-background flex-1 text-center mt-7 lg:mt-0 lg:ml-3">
-                    <img src="https://img.freepik.com/premium-photo/large-offset-printing-press-running-long-roll-paper-production-line-industrial-printer-machine_39420-242.jpg?w=1480" className="w-full mx-auto sm:w-10/12 lg:w-full opacity-0" />
-                </div>
-            </section>
+            </div>
+            <div className="flex-1 backdrop-blur-sm bg-white/30 p-1">
+                <img src="/images/hero-image.webp" className="bg-blend-colo " alt="" />
+            </div>
+        </div>
     )
 }
  
