@@ -4,7 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "start": "",
+    "dev": "vitenpx http-server ./build",
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
