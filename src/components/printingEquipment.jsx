@@ -11,7 +11,7 @@ const PrintingEquipment = () => {
                 <p className="text-gray-600 leading-relaxed mx-auto max-w-8xl">
                     Ranging from handbills, brochures, posters, calendars, annual reports, magazines to books & manuals, we are equipped with extensive capacity to print large quantities and quality prints that resonate with our client's brand and products and which match globally acceptable standards. Our professional services guarantee our clientele of impeccable precision and timely delivery. Complementing the printing press, we boast of a thoroughly garnished finishing division equipped with an array of the most advanced machinery and equipment. These provide most premium finishing on printed works and comprise of; Heidelberg Speed Master MOFP 5 Colour, Digital Printing Machine,Perforating Machine, Computer to Plate Machines, Duplo booklet maker, Xerox Versant 280, Monogram Machine, Diecutter.
                 </p>
-                <p classNameName="text-gray-600 leading-relaxed mx-auto max-w-8xl">
+                <p className="text-gray-600 leading-relaxed mx-auto max-w-8xl">
                     M4 Solutions Limited produces its items with superb quilty on time and cost effectively. The company is focused on integrated solutions and clients stand to benefit from prepress and post press processes.These include; Flyers, Calendars, Magazines, Brochures, Presentation Folders, Corporate Stationery, NCR Books, Banners, Business Cards,Seasonal Cards,e t c.
                 </p>
             </div>

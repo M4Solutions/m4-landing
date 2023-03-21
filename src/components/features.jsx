@@ -41,7 +41,7 @@ const Features = () => {
                     {
                         features.map((item, idx) => {
                             return (
-                                <div key={item.title} class="bg-white rounded-lg shadow-lg p-6 flex-1">
+                                <div key={item.title} className="bg-white rounded-lg shadow-lg p-6 flex-1">
                                     <div className="flex items-center gap-2 mb-4">
                                     <span className=''>
                                         <FontAwesomeIcon icon={item.icon} />

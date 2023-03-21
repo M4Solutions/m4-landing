@@ -14,7 +14,7 @@ const Home = () => {
 
     return (
         <div className="bg-white">
-            <header className="bg-gradient-to-r to-cyan-500 from-blue-600 text-white">
+            <header className="bg-gradient-to-r to-cyan-500 from-blue-600 text-white px-2">
                 <NavBar />
                 <section className="flex items-center py-10">
                     <Hero />
@@ -26,7 +26,7 @@ const Home = () => {
             <section className="py-8 bg-dark-blue text-white">
                 <MissionVision />
             </section>
-            <section className="py-8 bg-cyan-500">
+            <section className="py-8 px-2 bg-cyan-500">
                 <Features />
             </section>
             <section id="services" className="">
@@ -42,7 +42,7 @@ const Home = () => {
                 <CTA />
             </section>
         
-            <footer id="contact" className="py-16 bg-gray-900 text-gray-500">
+            <footer id="contact" className="py-16 px-4 bg-gray-900 text-gray-500">
                 <Footer />
             </footer>
         </div>
