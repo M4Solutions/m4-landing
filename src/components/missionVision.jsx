@@ -22,7 +22,7 @@ const MissionVision = () => {
                             M4 Solutions Limited strives to be the highest quality printing company in the country and strives to exceed the expectations of those we partner with by, being the best printing service provider our Clients have ever had, being the best company our employees have everworked for and to continuously improve all aspects of our business while building on our culture of excellence.
                         </p>
                         </div>
-                        <img className="h-48 w-full object-cover mt-6" src="/images/mission.jpg" alt="Core Values Image" />
+                        <img className="h-48 w-full object-cover mt-6" src="./images/mission.jpg" alt="Core Values Image" />
                     </div>
                 </div>
                 
@@ -34,7 +34,7 @@ const MissionVision = () => {
                             M4 Solutions Limited strives to be the highest quality printing company in the country and strives to exceed the expectations of those we partner with by, being the best printing service provider our Clients have ever had, being the best company our employees have everworked for and to continuously improve all aspects of our business while building on our culture of excellence.
                         </p>
                         </div>
-                        <img className="h-48 w-full object-cover mt-6" src="/images/vision.jpg" alt="Vision Image" />
+                        <img className="h-48 w-full object-cover mt-6" src="./images/vision.jpg" alt="Vision Image" />
                     </div>
                 </div>
                 <div className="md:w-1/3 px-4 mb-8">
@@ -45,7 +45,7 @@ const MissionVision = () => {
                             M4 Solutions Limited strives to be the highest quality printing company in the country and strives to exceed the expectations of those we partner with by, being the best printing service provider our Clients have ever had, being the best company our employees have everworked for and to continuously improve all aspects of our business while building on our culture of excellence.
                         </p>
                         </div>
-                        <img className="h-48 w-full object-cover mt-6" src="/images/mission.jpg" alt="Core Values Image" />
+                        <img className="h-48 w-full object-cover mt-6" src="./images/mission.jpg" alt="Core Values Image" />
                     </div>
                 </div>
             </div>

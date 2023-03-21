@@ -21,7 +21,7 @@ const PrintingEquipment = () => {
                             return (
                                 <div key={machine.name} className="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
                                     <div className="relative">
-                                        <img className="w-full h-64 rounded-lg shadow-lg hover:scale-105 transform transition-all duration-500 object-fit" src={`/images/${machine.image}`} alt={machine.name} />
+                                        <img className="w-full h-64 rounded-lg shadow-lg hover:scale-105 transform transition-all duration-500 object-fit" src={`./images/${machine.image}`} alt={machine.name} />
                                         <div className="absolute bottom-0 left-0 right-0 px-4 py-2 bg-white bg-opacity-80 rounded-lg">
                                         <p className="text-sm text-gray-800 font-bold">{machine.name}</p>
                                         </div>

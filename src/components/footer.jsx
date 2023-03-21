@@ -6,7 +6,7 @@ const Footer = () => {
     return (
             <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div className="col-span-1 flex items-center justify-center md:justify-start mb-8 md:mb-0">
-                    <img src="company-logo.png" alt="Company Logo" className="w-32" />
+                    <img src="./images/company-logo.png" alt="Company Logo" className="w-32" />
                     <p className="ml-4 text-sm">
                         We are a printing press company that specializes in high-quality printing services for businesses and individuals. Our mission is to provide our clients with top-notch printing services that exceed their expectations and help them achieve their goals.
                     </p>
