@@ -4,7 +4,6 @@ import NavBar from "../components/NavBar";
 import Features from "../components/Features";
 import MissionAndVision from "../components/MissionAndVision";
 import Testimonials from "../components/Testimonial";
-import SectionHead from "../components/common/sectionHead";
 import Services from "../components/Services";
 import PrintingEquipment from "../components/PrintingEquipment";
 import CTA from "../components/CTA";
