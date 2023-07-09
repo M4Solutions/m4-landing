@@ -9,6 +9,7 @@ import Services from "../components/Services";
 import PrintingEquipment from "../components/PrintingEquipment";
 import CTA from "../components/CTA";
 import About from "../components/About";
+import TrustedCompanies from "../components/TrustedCompanies";
 
 const Home = () => {
 
@@ -38,10 +39,12 @@ const Home = () => {
             <section className="py-8 bg-dark-blue text-white">
                 <Testimonials />
             </section>
+            <section className="py-20">
+                <TrustedCompanies />
+            </section>
             <section className="py-20 bg-blue-600">
                 <CTA />
             </section>
-        
             <footer id="contact" className="py-16 px-4 bg-gray-900 text-gray-500">
                 <Footer />
             </footer>

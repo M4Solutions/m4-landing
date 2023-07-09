@@ -17,7 +17,7 @@ const Hero = () => {
                     <a href="tel:09185000505" className="inline-block px-8 py-4 rounded text-blue-500 bg-white transform hover:bg-gray-200 mr-4" data-aos="fade-rigt" data-aos-duration="2000">
                         Get Started
                     </a>
-                    <a href="https://wa.me/2348033581589" className="inline-block px-8 py-4 rounded text-blue-500 bg-white transorm hover:bg-gray-200g" data-aos="fade-left" data-aos-duration="2000">
+                    <a href="https://wa.me/2348033581589" className="inline-block px-8 py-4 rounded text-blue-500 bg-white transorm hover:bg-gray-200" data-aos="fade-left" data-aos-duration="2000">
                         Contact Us
                     </a>
                 </div>
