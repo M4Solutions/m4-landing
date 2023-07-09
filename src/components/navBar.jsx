@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from 'react'
-import {navigation} from "../services/printingServices";
+import {navigation} from "../services/data";
 import Button from "./common/button";
 
 const NavBar = () => {
@@ -10,7 +10,7 @@ const NavBar = () => {
         <div className="items-center container mx-auto md:flex">
             <div className="flex items-center justify-between py-3 md:block">
                     <a href="#" className="bg-gradient-to-r from-red-200 to-red-600 bg-clip-text text-transparent">
-                        M4 Solutions
+                        <img src="/images/logo.png" alt="M4 Solutions" height={32} width={32}/>
                     </a>
                 <div className="md:hidden">
                     <button className="text-slate-100 outline-none p-2 rounded-md focus:border-gray-400 focus:border"

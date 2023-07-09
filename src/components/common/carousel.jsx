@@ -1,27 +1,20 @@
-// Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-// Import Swiper styles
 import 'swiper/css';
+import { Children } from 'react';
 
-export default ({spaceBetween, slidesPerView, swiperSlides}) => {
+const Carousel = ({slides, spaceBetween, slidesPerView}) => {
+  console.log(slides)
   return (
     <Swiper
-      spaceBetween={spaceBetween}
-      slidesPerView={slidesPerView}
+      spaceBetween={50}
+      slidesPerView={1}
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
     >
-
-        {swiperSlides.map(slide => {
-            return(
-                <SwiperSlide key={slide.id}>
-                    {
-                        slide.image && <img src={slide.image} alt={slide.title}/>
-                    }
-                </SwiperSlide>
-            )
-        })}
+     {Children}
     </Swiper>
   );
 };
+
+export default Carousel;

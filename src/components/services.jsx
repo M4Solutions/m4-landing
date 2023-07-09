@@ -1,5 +1,5 @@
 import React from "react";
-import { services } from "../services/printingServices";
+import { services } from "../services/data";
 
 const Services = () => {
     return (
@@ -10,7 +10,7 @@ const Services = () => {
                 <div className='flex items-stretch justify-center flex-wrap -m-4'>
                 {
                     services.map((service, idx) => (
-                    <div key={idx} className="p-4 xl:w-1/4 md:w-1/2 w-full">
+                    <div key={idx} className="p-4 xl:w-1/4 md:w-1/2 w-full" data-aos="fade-up" data-aos-duration="3000">
                         <div className="h-full p-6 rounded-lg border-2 border-dark-blue flex flex-col relative overflow-hidden">
                             <h1 className="text-2xl text-gray-900 pb-4 mb-4 border-b border-gray-200 leading-none">{service.name}</h1>
                             <ul className='py-8 space-y-3'>
@@ -27,11 +27,11 @@ const Services = () => {
                                 }
                             </ul>
 
-                            <button className="flex items-center mt-auto text-white bg-dark-blue border-0 py-2 px-4 w-full focus:outline-none hover:bg-blue-500 rounded">Place a Call
+                            <a href="tel:09185000505" className="flex items-center mt-auto text-white bg-dark-blue border-0 py-2 px-4 w-full focus:outline-none hover:bg-blue-500 rounded">Place a Call
                                 <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-auto" viewBox="0 0 24 24">
                                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                                 </svg>
-                            </button>
+                            </a>
                         </div>
                     </div>
                     ))

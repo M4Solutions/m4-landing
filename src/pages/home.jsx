@@ -1,14 +1,14 @@
-import Footer from "../components/footer";
-import Hero from "../components/hero";
-import NavBar from "../components/navBar";
-import Features from "../components/features";
-import MissionVision from "../components/missionVision";
-import Testimonials from "../components/testimonial";
+import Footer from "../components/Footer";
+import Hero from "../components/Hero";
+import NavBar from "../components/NavBar";
+import Features from "../components/Features";
+import MissionAndVision from "../components/MissionAndVision";
+import Testimonials from "../components/Testimonial";
 import SectionHead from "../components/common/sectionHead";
-import Services from "../components/services";
-import PrintingEquipment from "../components/printingEquipment";
-import CTA from "../components/cta";
-import About from "../components/about";
+import Services from "../components/Services";
+import PrintingEquipment from "../components/PrintingEquipment";
+import CTA from "../components/CTA";
+import About from "../components/About";
 
 const Home = () => {
 
@@ -24,7 +24,7 @@ const Home = () => {
                 <About />
             </section>
             <section className="py-8 bg-dark-blue text-white">
-                <MissionVision />
+                <MissionAndVision />
             </section>
             <section className="py-8 px-2 bg-cyan-500">
                 <Features />

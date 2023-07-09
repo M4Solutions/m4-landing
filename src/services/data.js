@@ -21,6 +21,34 @@ export let navigation = [
     },
 ]
 
+export let heroSlides = [
+    {
+        id: 0,
+        image: "./images/hero-slide-1.jpg",
+        alt: "Alternative text"
+    },
+    {
+        id: 1,
+        image: "./images/hero-slide-2.jpg",
+        alt: "Alternative text"
+    },
+    {
+        id: 2,
+        image: "./images/hero-slide-3.jpg",
+        alt: "Alternative text"
+    },
+    {
+        id: 3,
+        image: "./images/hero-slide-1.jpg",
+        alt: "Alternative text"
+    },
+    {
+        id: 4,
+        image: "./images/hero-slide-2.jpg",
+        alt: "Alternative text"
+    }
+]
+
 export let services = [
     {
         name: "Designing",
@@ -78,7 +106,8 @@ export let services = [
             "Note Pad",
             "Pen",
             "Mug",
-            "Sack"
+            "Sack",
+            "Plaque"
         ],
     }
 ];
@@ -125,22 +154,25 @@ export let machines = [
 
 export let testimonials = [
     {
-    id: 1,
-    name: "Hassan Yahya",
-    testimonial: "I am always happy to work with all of you at Select Graphics. You have done wonderful work for the Museum. Thank you.",
-    image: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg"
+        id: 1,
+        name: "Hassan Yahya",
+        testimonial: "I am always happy to work with all of you at M4 Solutions. You have done wonderful work for our business branding. Thank you.",
+        image: "./images/hassan.png",
+        occupation: "Software Engr."
     },
     {
-    id: 2,
-    name: "Kayode Abiona",
-    testimonial: "Everything was great, from the front desk costumer service, the time frame was excellent, price, overall, im very satisfied, just some of my business cards (a couple dozen) look chopped up in a messed up way, to a point that some of the letters got trimmed.but besides that, im very satisfied.",
-    image: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg"
+        id: 2,
+        name: "Kayode Abiona",
+        testimonial: "Everything was great. From the front desk customer service, the time frame, and price, it was excellent. Overall, I'm very satisfied with M4.",
+        image: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
+        occupation: "Student"
     },
     {
-    id: 9,
-    name: "Kadir Muhammed",
-    testimonial: "Your staff was courteous and very helpful. The finished product was completed as promised and in a timely manner. I am very pleased with your services.",
-    image: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg"
+        id: 9,
+        name: "Kadir Muhammed",
+        testimonial: "Your staff was courteous and very helpful. The finished product was completed as promised. I love the design sooooo much.",
+        image: "./images/muhammad-kadir.jpeg",
+        occupation: "Developer"
     }
 ]
     
