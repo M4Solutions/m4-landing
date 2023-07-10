@@ -10,22 +10,22 @@ const TrustedCompanies = () => {
                 <ul className="flex gap-x-10 gap-y-6 flex-wrap items-center justify-center md:gap-x-16">
                     {/* LOGO 1 */}
                     <li>
-                        <img src="https://www.cbn.gov.ng/images/HighResoultion/cbnlogotrans.gif" className="w-28" alt="Central Bank of Nigeria" />
+                        <img src="./images/mtn-logo.svg" className="w-28" alt="MTNgit  Nigeria" />
                     </li>
 
                     {/* LOGO 2 */}
                     <li>
-                        <img src="https://th.bing.com/th/id/R.c3abf343e3ecd8b198ada6d5a191b1ec?rik=UHKsBUZ7Yz4Pfg&pid=ImgRaw&r=0" className="w-28" alt="Enaira" />
+                        <img src="./images/enaira-logo.png" className="w-28" alt="Enaira" />
                     </li>
 
                     {/* LOGO 3 */}
                     <li>
-                        <img src="https://www.cbn.gov.ng/images/HighResoultion/cbnlogotrans.gif" className="w-28" alt="Central Bank of Nigeria" />
+                        <img src="./images/uber-logo.svg" className="w-28" alt="Uber" />
                     </li>
 
                     {/* LOGO 4 */}
                     <li>
-                        <img src="https://th.bing.com/th/id/R.c3abf343e3ecd8b198ada6d5a191b1ec?rik=UHKsBUZ7Yz4Pfg&pid=ImgRaw&r=0" className="w-28" alt="Enaira" />
+                        <img src="./images/cbn-logo.gif" className="w-28" alt="Central Bank of Nigeria" />
                     </li>
 
                 </ul>
