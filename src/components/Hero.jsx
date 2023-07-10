@@ -23,7 +23,7 @@ const Hero = () => {
                 </div>
             </div>
             <div className="flex-1 w-full sm:max-w-2xl xl:max-w-xl backdrop-blur-sm bg-white/30 p-1 ">
-                <img src="./images/hero-image.webp" className="bg-blend-color h-5/6" alt="printing" />
+                <img src="./images/hero-image.png" className="bg-blend-color h-5/6" alt="printing" />
             </div>
         </div>
 
