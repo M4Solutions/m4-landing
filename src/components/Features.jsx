@@ -15,7 +15,7 @@ const Features = () => {
         {
             icon: faPeopleGroup,
             title: "Our Clients",
-            desc: "The secret of our success is in earmimg the right to sustain successful long term relationships with our clients. Our objective is to achieve a well deserved reputation where our client will recommend and refer other to us - this is a privilege and an ultimate reward in our endaviour for excelience"
+            desc: "The secret of our success is in earning the right to sustain successful long term relationships with our clients. Our objective is to achieve a well deserved reputation where our client will recommend and refer others to us - this is a privilege and an ultimate reward in our endaviour for excelience"
         },
         {
             icon: faStar,

@@ -43,7 +43,7 @@ const MissionAndVision = () => {
                         <div className="p-6">
                         <h3 className="text-2xl font-bold mb-2 text-slate-100">Core Values</h3>
                         <p className="leading-relaxed text-base mb-3">
-                            At M4, we are committed to providing our clients with the professional, timely, and quality services they deserve. We understand that your printing needs are important, and we take pride in working with you to ensure that your projects are completed on time and to your satisfaction.
+                            At M4, we are committed to providing our clients with the professional, timely, and quality services they deserve. We understand that our clients' needs are important, and we take pride in working to ensure that their projects are completed on time and to their satisfaction.
                         </p>
                         </div>
                         <img className="h-48 w-full object-cover mt-6" src="./images/mission.jpg" alt="Core Values Image" />

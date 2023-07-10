@@ -13,7 +13,7 @@ const PrintingEquipment = () => {
                         From handbills and brochures to posters, calendars, annual reports, magazines, and books and manuals, wehave the capacity to print large quantities of high-quality prints that meet our clients' brand and product requirements and global standards. Our professional services guarantee our clients impeccable precision and timely delivery.
                     </p>
                     <p className="mt-2">
-                        In addition to our printing press, we have a state-of-the-art finishing division with a wide range of advanced machinery and equipment. These machines provide the highest quality finishing for printed materials, including:
+                        In addition, we have a state-of-the-art finishing division with a wide range of advanced machinery and equipment. These machines provide the highest quality finishing for printed materials, including:
                     </p>
 
                     <ul className="list-disc mt-2 ml-5">
