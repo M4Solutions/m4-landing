@@ -26,7 +26,7 @@ const Home = () => {
             <section className="py-8 bg-dark-blue text-white">
                 <MissionAndVision />
             </section>
-            <section className="py-8 px-2 bg-cyan-500">
+            <section className="py-8 px-2 bg-cyan-400">
                 <Features />
             </section>
             <section id="services" className="">
